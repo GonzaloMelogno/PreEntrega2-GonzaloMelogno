@@ -107,3 +107,8 @@ nav{
     "1,2"
     "3,4";
 }
+footer{
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+}
