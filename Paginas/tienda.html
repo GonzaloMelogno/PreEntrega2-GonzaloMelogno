@@ -6,29 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evermeet Tienda</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
 </head>
 
 <body class="fondo-imagen">
     <header class="fondo-negro"><img class="img-evermet" src="../imagenes/01_Logotipo_Claro.png" alt="No carga la imagen"></header>
-    <nav align=right>
-        <ol class=lista-horizontal>
-            <li class=lista-horizontal>
-                <a href="../index.html"> Volver atras</a>
-            </li>
-            <li class=lista-horizontal>
-                <a href="./galeria.html"> Galeria</a>
-            </li>
-            <li class=lista-horizontal>
-                <a href="./rosters.html"> Rosters</a>
-            </li>
-            <li class=lista-horizontal>
-                <a href="./nosotros.html"> ¿Quienes somos?</a>
-            </li>
-
-        </ol>
-    </nav>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Paginas/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/rosters.html">Rosters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Paginas/nosotros.html">¿Quienes somos?</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Volver atras</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <main class="grid-conteiner-tienda">
-        <div grid-area="1" class="texto-blanco-fondo-negro" class="flexible">
+        <div grid-area="Camiseta" class="texto-blanco-fondo-negro" class="flexible">
             <h3 class="texto-blanco-fondo-negro">Camiseta</h3>
             <img class="imagen-tienda" src="../imagenes/Camiseta.PNG" alt="">
             <p class="texto-blanco-fondo-negro-letra-chica">
@@ -40,7 +49,7 @@
             <button class="boton-negro">Comprar</button>
         </div>
 
-        <div grid-area="2" class="texto-blanco-fondo-negro" class="flexible">
+        <div grid-area="Canguro" class="texto-blanco-fondo-negro" class="flexible">
             <h3 class="texto-blanco-fondo-negro">Canguro</h3>
             <img class="imagen-tienda" src="../imagenes/Canguro.PNG" alt="">
             <p class="texto-blanco-fondo-negro-letra-chica">
@@ -52,7 +61,7 @@
             <button class="boton-negro">Comprar</button>
         </div>
 
-        <div grid-area="3" class="texto-blanco-fondo-negro" class="flexible">
+        <div grid-area="Gorro" class="texto-blanco-fondo-negro" class="flexible">
             <h3 class="texto-blanco-fondo-negro">Gorro</h3>
             <img class="imagen-tienda" src="../imagenes/Gorro.PNG" alt="">
             <p class="texto-blanco-fondo-negro-letra-chica">
@@ -65,7 +74,7 @@
         </div>
 
 
-        <div grid-area="4" class="texto-blanco-fondo-negro" class="flexible">
+        <div grid-area="Tapabocas" class="texto-blanco-fondo-negro" class="flexible">
             <h3 class="texto-blanco-fondo-negro">Tapabocas</h3>
             <img class="imagen-tienda" src="../imagenes/Tapabocas.PNG" alt="">
             <p class="texto-blanco-fondo-negro-letra-chica">
@@ -77,14 +86,16 @@
             <button class="boton-negro">Comprar</button>
         </div>
     </main>
-</body>
-<footer class="footer" class="flexible">
-    <p>
-        Contactos
-        </p>
+    <footer grid-area="footer" class="footer" class="flexible">
         <p>
-        Localicación
-    </p>
-    <p align="right">made by Gonzalo</p>
-</footer>
+            Contactos
+            </p>
+            <p>
+            Localicación
+        </p>
+        <p align="right">made by Gonzalo</p>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
 </html>

@@ -6,54 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evermeet</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
 </head>
 
 <body class="fondo-imagen">
     <header class="fondo-negro"><img class="img-evermet" src="./imagenes/01_Logotipo_Claro.png" alt="No carga la imagen"></header>
-        <nav align=right> 
-            <ol class=lista-horizontal>
-                <li class=lista-horizontal> 
-                    <a href="./Paginas/galeria.html"> Galeria</a>
-                </li>
-                <li class=lista-horizontal> 
-                    <a href="./Paginas/rosters.html"> Rosters</a>
-                </li>
-                <li class=lista-horizontal>
-                    <a href="./Paginas/tienda.html"> Tienda</a>
-                </li>
-                <li class=lista-horizontal> 
-                    <a href="./Paginas/nosotros.html"> ¿Quienes somos?</a>
-                </li>
-    
-            </ol> 
-         </nav>
-         <main>
-        <div class="flexible">
-
-            <img class="img-copa" src="./imagenes/copa-ganada.jpg" alt="no se ve" >
-            
-            <article>
-                
-                <img class="img-logo" src="./imagenes/03_Logotipo_Blanco-Vertical.png" alt="no se ve" >
-                <center class="texto-blanco-fondo-negro">
-                     CORAZÓN - MENTE - FUERZA
-                </center>
-                
-            </article>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/rosters.html">Rosters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Paginas/nosotros.html">¿Quienes somos?</a>
+            </li>
+          </ul>
         </div>
-        
-    </main>
-
-   
-
-</body>
-<footer class="footer" class="flexible">
-    <p>
+      </div>
+    </nav>
+         <main>
+          <div class="flexible">
+            <div id="carouselExampleFade" class="carousel carousel-fade carousel-caption-width70%" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./imagenes/copa-ganada.jpg" class="d-block img-copa" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/SUPP.jpg" class="d-block img-copa" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/jugando fond rojo 3.jpg" class="d-block img-copa" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          <div>
+            <div style="width: 35rem;">
+              <img src="./imagenes/03_Logotipo_Blanco-Vertical.png" class="card-img-top" alt="...">
+              <div class="card-body bg-black">
+                <p class="card-text texto-blanco-fondo-negro w-100"> CORAZÓN - MENTE - FUERZA.</p>
+              </div>
+</main>
+    <footer class="footer" class="flexible" grid-area="footer">
+      <p>
         Contactos
-        </p>
-        <p>
+      </p>
+      <p>
         Localicación
-    </p>
-    <p align="right">made by Gonzalo</p>
-</footer>
+      </p>
+      <p align="right">made by Gonzalo </p>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+
 </html>
