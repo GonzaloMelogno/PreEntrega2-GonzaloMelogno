@@ -6,7 +6,7 @@
     font-family: "Titulo";
     src: url(../fonts/titulos.otf);
     font-family: "Texto";
-    src:url(../fonts/texto.otf)
+    src:url(../fonts/Texto.otf)
 }
 
 .article-centrado{
@@ -94,10 +94,10 @@ div article p {
     color: white;
     background-color: black;
     font-size: 35px;
-    width: 200px;
-    height: 50px;
+    width: auto;
+    height: auto;
     opacity: 100;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .imagen-tienda{
     margin-left: 15px;
