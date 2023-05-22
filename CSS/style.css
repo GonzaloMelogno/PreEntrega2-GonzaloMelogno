@@ -187,6 +187,12 @@ nav{
     "carousel"
     "combo-index"
     "footer";
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+    opacity: 100%;
 
 } 
 }
