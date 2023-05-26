@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evermeet</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/app.css">
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
 </head>
 
-<body class="fondo-imagen">
-    <header class="fondo-negro"><img class="img-evermet" src="./imagenes/01_Logotipo_Claro.png" alt="No carga la imagen"></header>
+<body >
+    <header class="fondo-negro"><img class="img img-evermet" src="./imagenes/01_Logotipo_Claro.png" alt="No carga la imagen"></header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +34,9 @@
         </div>
       </div>
     </nav>
-         <main>
-          <div class="flexible">
-            <div id="carouselExampleFade" class="carousel carousel-fade carousel-caption-width70%" data-bs-ride="carousel">
+         <main class="fondo-imagen">
+          <div id="carousel" class="flexible">
+            <div id="Carusel-Evermeet" class="carousel carousel-fade carousel-caption-width70%" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="./imagenes/copa-ganada.jpg" class="d-block img-copa" alt="...">
@@ -48,23 +48,23 @@
                   <img src="./imagenes/jugando fond rojo 3.jpg" class="d-block img-copa" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#Carusel-Evermeet" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#Carusel-Evermeet" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Siguiente</span>
               </button>
             </div>
           <div>
-            <div style="width: 35rem;">
+            <div id="combo-index" style="width: 35rem;">
               <img src="./imagenes/03_Logotipo_Blanco-Vertical.png" class="card-img-top" alt="...">
               <div class="card-body bg-black">
                 <p class="card-text texto-blanco-fondo-negro w-100"> CORAZÓN - MENTE - FUERZA.</p>
               </div>
 </main>
-    <footer class="footer" class="flexible" grid-area="footer">
+    <footer ID="footer" class="footer">
       <p>
         Contactos
       </p>
@@ -73,7 +73,7 @@
       </p>
       <p align="right">made by Gonzalo </p>
     </footer>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="./Js/bootstrap.min.js"></script>
   </body>
 
 </html>
