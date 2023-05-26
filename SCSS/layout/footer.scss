@@ -1,0 +1,11 @@
+@import "../basics/colores.scss";
+footer{
+    align-items: end;
+    background-color: $color-primario;
+    width: 100%;
+    height: auto;
+    color: $color-secundario;
+    position: inherit;
+    margin: 0;
+    padding: 0;    
+}

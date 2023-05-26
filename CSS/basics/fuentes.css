@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Titulo";
+  src: url(../fonts/titulos.otf);
+  font-family: "Texto";
+  src: url(../fonts/Texto.otf);
+}
+.texto, .texto-blanco-fondo-negro-letra-chica, .texto-blanco-fondo-negro {
+  font-family: "Texto";
+  color: #FFFFFF;
+  background-color: #000;
+}
+
+.texto-blanco-fondo-negro {
+  font-family: "Texto";
+  opacity: 0.75;
+  font-size: 35px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.texto-blanco-fondo-negro-letra-chica {
+  font-family: "Texto";
+  opacity: 100;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=fuentes.css.map */
