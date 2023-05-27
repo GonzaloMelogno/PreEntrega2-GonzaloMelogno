@@ -24,6 +24,9 @@
     width: 200px;
     height: 200px;
 }
+.imagenes-carril:hover{
+    transform: scale(1.5, 1.5);
+}
 .imagen-tienda{
     @include img;
     margin-left: 15px;

@@ -26,6 +26,10 @@
   height: 200px;
 }
 
+.imagenes-carril:hover {
+  transform: scale(1.5, 1.5);
+}
+
 .imagen-tienda {
   margin-bottom: 15px;
   margin-top: 15px;
