@@ -1,7 +1,40 @@
-.boton-negro {
+.boton-black {
   font-family: "Texto";
-  color: #FFFFFF;
-  background-color: #000;
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-white {
+  font-family: "Texto";
+  color: black;
+  background-color: white;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-black {
+  font-family: "Texto";
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-white {
+  font-family: "Texto";
+  color: black;
+  background-color: white;
   font-size: 35px;
   width: auto;
   height: auto;

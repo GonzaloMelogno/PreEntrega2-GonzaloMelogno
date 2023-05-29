@@ -16,7 +16,7 @@
   background-color: #000;
 }
 
-.imagenes-carril {
+.img-carril {
   margin-bottom: 15px;
   margin-top: 15px;
   opacity: 100%;
@@ -26,11 +26,11 @@
   height: 200px;
 }
 
-.imagenes-carril:hover {
+.img-carril:hover {
   transform: scale(1.5, 1.5);
 }
 
-.imagen-tienda {
+.img-tienda {
   margin-bottom: 15px;
   margin-top: 15px;
   opacity: 100%;

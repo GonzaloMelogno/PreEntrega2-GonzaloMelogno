@@ -33,7 +33,6 @@
 .fondo-imagen {
   background-image: url(../imagenes/04_Bg.jpg);
   background-size: cover;
-  background-repeat: repeat;
   margin: 0;
   padding: 0;
 }
@@ -60,7 +59,7 @@
   background-color: #000;
 }
 
-.imagenes-carril {
+.img-carril {
   margin-bottom: 15px;
   margin-top: 15px;
   opacity: 100%;
@@ -70,11 +69,11 @@
   height: 200px;
 }
 
-.imagenes-carril:hover {
+.img-carril:hover {
   transform: scale(1.5, 1.5);
 }
 
-.imagen-tienda {
+.img-tienda {
   margin-bottom: 15px;
   margin-top: 15px;
   opacity: 100%;
@@ -92,10 +91,43 @@
   height: 350px;
 }
 
-.boton-negro {
+.boton-black {
   font-family: "Texto";
-  color: #FFFFFF;
-  background-color: #000;
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-white {
+  font-family: "Texto";
+  color: black;
+  background-color: white;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-black {
+  font-family: "Texto";
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  width: auto;
+  height: auto;
+  opacity: 100;
+  margin-bottom: 40px;
+}
+
+.boton-white {
+  font-family: "Texto";
+  color: black;
+  background-color: white;
   font-size: 35px;
   width: auto;
   height: auto;
@@ -149,7 +181,7 @@
   }
   .Flexible {
     display: grid;
-    grid-template-columns: repeat(1, 3fr);
+    grid-template-columns: repeat(3, 1r);
     grid-template-rows: auto;
     row-gap: 10px;
     column-gap: 10px;
@@ -159,8 +191,8 @@
     grid-area: "combo-index";
     grid-area: "footer";
     grid-template-areas: "carousel" "combo-index" "footer";
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 50%;
     height: 50%;
     margin-bottom: 10px;
@@ -208,12 +240,11 @@ nav li a {
 }
 
 footer {
-  align-items: end;
   background-color: #000;
+  bottom: 0;
   width: 100%;
   height: auto;
   color: #FFFFFF;
-  position: inherit;
   margin: 0;
   padding: 0;
 }

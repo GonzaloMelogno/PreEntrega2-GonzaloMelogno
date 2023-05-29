@@ -20,7 +20,7 @@
   }
   .Flexible {
     display: grid;
-    grid-template-columns: repeat(1, 3fr);
+    grid-template-columns: repeat(3, 1r);
     grid-template-rows: auto;
     row-gap: 10px;
     column-gap: 10px;
@@ -30,8 +30,8 @@
     grid-area: "combo-index";
     grid-area: "footer";
     grid-template-areas: "carousel" "combo-index" "footer";
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     width: 50%;
     height: 50%;
     margin-bottom: 10px;

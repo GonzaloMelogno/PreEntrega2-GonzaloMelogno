@@ -1,10 +1,9 @@
 footer {
-  align-items: end;
   background-color: #000;
+  bottom: 0;
   width: 100%;
   height: auto;
   color: #FFFFFF;
-  position: inherit;
   margin: 0;
   padding: 0;
 }
